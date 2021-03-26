@@ -21,6 +21,7 @@ try:
     input1 = browser.find_element_by_class_name('form-control')
     input1.send_keys(y)
     btn2.click()
+
 finally:
     time.sleep(15)
     browser.quit()
